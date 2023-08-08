@@ -1,0 +1,259 @@
+/*----------------RESET---------------*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+/*---------------GENERALES----------------*/
+main {
+  font-family: 'Quicksand', sans-serif; }
+
+.boton {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 5px; }
+
+/*---------------LISTAS----------------*/
+/*-------------ENCABEZADO-------------*/
+.container-fluid .navbar-brand img {
+  height: 50px; }
+
+/*-------------LAYOUT-------------*/
+.hero {
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-image: url(../img/background_hero.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .hero h1 {
+    color: white;
+    font-size: 60px;
+    border: 5px white solid;
+    padding: 15px; }
+  .hero p {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px; }
+
+.herojuegos {
+  width: 100%;
+  height: calc(50vh - 70px);
+  background-image: url(../img/background_hero.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .herojuegos h1 {
+    color: white;
+    font-size: 30px;
+    border: 3px white solid;
+    padding: 5px; }
+
+/*Presentacion*/
+.presentacion {
+  height: 100vh;
+  background-color: #D5C2ED;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.presentacion__formulario {
+  background-color: #FFD7D2;
+  background-size: cover;
+  border: 5px solid #FFEBE1;
+  padding: 5px; }
+
+/*Juego Destacado Pagina Principal*/
+.juego {
+  width: 100%;
+  height: calc(120vh - 50px);
+  background-color: #9d8eaf;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; }
+  .juego div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+/*Todos los juegos EN PAG DE JUEGOS*/
+.juegouno {
+  width: 100%;
+  height: calc(120vh - 50px);
+  background-color: #C9F5D6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; }
+  .juegouno div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .juegouno h2 {
+    font-size: 40px; }
+  .juegouno h3 {
+    font-size: 30px; }
+  .juegouno p {
+    font-size: 20px; }
+
+.juegodos {
+  width: 100%;
+  height: calc(120vh - 50px);
+  background-color: #D9D8A9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; }
+  .juegodos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .juegodos h2 {
+    font-size: 40px; }
+  .juegodos h3 {
+    font-size: 30px; }
+  .juegodos p {
+    font-size: 20px; }
+
+.juegotres {
+  width: 100%;
+  height: calc(120vh - 50px);
+  background-color: #EBD3B5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; }
+  .juegotres div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .juegotres h2 {
+    font-size: 40px; }
+  .juegotres h3 {
+    font-size: 30px; }
+  .juegotres p {
+    font-size: 20px; }
+
+/*More Apps*/
+.aplicaciones {
+  background-color: beige;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: calc(25vh - 50px);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; }
+
+.aplicacion {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background-color: #439c8c;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px; }
+
+footer {
+  font-family: 'Quicksand', sans-serif;
+  height: 100px;
+  background-color: #D5F2ED;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+@media (max-width: 800px) {
+  .container-fluid .navbar-brand img {
+    width: 18%;
+    height: 18%; } }
+
+@media (max-width: 800px) {
+  .hero h2 {
+    width: 40%;
+    height: 40%;
+    font-size: 50px;
+    border: 3px white solid;
+    padding: 10px; }
+  .hero p {
+    width: 30%;
+    height: 30%;
+    font-size: 20px; } }
+
+@media (max-width: 800px) {
+  .presentacion iframe {
+    width: 70%;
+    height: 40%; }
+  .presentacion h3 {
+    font-size: 15px; }
+  .presentacion p {
+    font-size: 10px; }
+  .aplicacion {
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px; } }
+
+@media (max-width: 800px) and (min-width: 0) {
+  .juego__imagen {
+    width: 75%; } }
+
+@media (max-width: 800px) and (min-width: 0) and (max-width: 850px) {
+  .herojuegos h1 {
+    font-size: 20px;
+    border: 2px white solid;
+    padding: 3px; }
+  .boton {
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 3px; }
+  .juegouno img {
+    width: 75%; }
+  .juegouno h2 {
+    font-size: 30px; }
+  .juegouno h3 {
+    font-size: 20px; }
+  .juegouno p {
+    font-size: 10px; }
+  .juegodos img {
+    width: 75%; }
+  .juegodos h2 {
+    font-size: 30px; }
+  .juegodos h3 {
+    font-size: 20px; }
+  .juegodos p {
+    font-size: 10px; }
+  .juegotres img {
+    width: 75%; }
+  .juegotres h2 {
+    font-size: 30px; }
+  .juegotres h3 {
+    font-size: 20px; }
+  .juegotres p {
+    font-size: 10px; } }

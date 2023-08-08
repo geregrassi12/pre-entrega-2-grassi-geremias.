@@ -1,0 +1,95 @@
+@media (max-width:800px){
+    .container-fluid .navbar-brand img{
+        width: 18%;
+        height: 18%;
+    }
+}
+
+@media (max-width:800px) {
+    .hero h2{
+        width: 40%;
+        height: 40%;
+        font-size: nth($font-size,2);
+        border: 3px white solid;
+        padding: 10px;
+    }
+    .hero p{
+        width: 30%;
+        height: 30%;
+        font-size: nth($font-size,5);
+    }
+}
+
+@media (max-width:800px) {
+    .presentacion iframe {
+        width: 70%;
+        height: 40%;
+    }
+    .presentacion h3{
+        font-size: nth($font-size,6);
+    }
+    .presentacion p{
+        font-size: nth($font-size,7);
+    }
+    .aplicacion{
+        padding: 5px;
+        border-radius: 15px;
+        font-size: nth($font-size,6);
+    }
+}
+
+@media (max-width:800px) and (min-width:0) {
+    .juego__imagen{
+        width: 75%;
+    }
+
+@media (max-width:850px){
+    .herojuegos h1{
+        font-size: nth($font-size,5);
+        border: 2px white solid;
+        padding: 3px;
+    }
+    .boton{
+        padding: 5px;
+        border-radius: 20px;
+        margin-top: 3px;
+    }
+
+    .juegouno img{
+        width: 75%
+    }
+    .juegouno h2{
+        font-size: nth($font-size,4);
+    }
+    .juegouno h3{
+        font-size: nth($font-size,5);
+    }
+    .juegouno p{
+        font-size: nth($font-size,7);
+    }
+    .juegodos img{
+        width: 75%
+    }
+    .juegodos h2{
+        font-size: nth($font-size,4);
+    }
+    .juegodos h3{
+        font-size: nth($font-size,5);
+    }
+    .juegodos p{
+        font-size: nth($font-size,7);
+    }
+    .juegotres img{
+        width: 75%
+    }
+    .juegotres h2{
+        font-size: nth($font-size,4);
+    }
+    .juegotres h3{
+        font-size: nth($font-size,5);
+    }
+    .juegotres p{
+        font-size: nth($font-size,7);
+    }
+}
+}

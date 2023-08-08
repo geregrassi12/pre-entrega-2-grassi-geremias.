@@ -1,0 +1,174 @@
+/*-------------LAYOUT-------------*/
+.hero{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-image: url(../img/background_hero.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color: white;
+        font-size: nth($font-size,1);
+        border: 5px white solid;
+        padding: 15px;
+    }
+    p {
+        font-size: nth($font-size,4);
+        color: white;
+        margin-bottom: 10px;
+    }
+}
+.herojuegos {
+    width: 100%;
+    height: calc(50vh - 70px);
+    background-image: url(../img/background_hero.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        color: white;
+        font-size: nth($font-size,4);
+        border: 3px white solid;
+        padding: 5px;
+    }
+}
+/*Presentacion*/
+.presentacion {
+    height: 100vh;
+    background-color: #D5C2ED;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.presentacion__formulario {
+    background-color: #FFD7D2;
+    background-size: cover;
+    border: 5px solid #FFEBE1;
+    padding: 5px;
+}
+/*Juego Destacado Pagina Principal*/
+.juego {
+    width: 100%;
+    height: calc(120vh - 50px);
+    background-color: #9d8eaf;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/*Todos los juegos EN PAG DE JUEGOS*/
+.juegouno{
+    width: 100%;
+    height: calc(120vh - 50px);
+    background-color: #C9F5D6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2 {
+        font-size: nth($font-size,3);
+    }
+    h3 {
+        font-size: nth($font-size,4);
+    }
+    p {
+        font-size: nth($font-size,5);
+    }
+}
+.juegodos{
+    width: 100%;
+    height: calc(120vh - 50px);
+    background-color: #D9D8A9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2 {
+        font-size: nth($font-size,3);
+    }
+    h3 {
+        font-size: nth($font-size,4);
+    }
+    p {
+        font-size: nth($font-size,5);
+    }
+}
+.juegotres{
+    width: 100%;
+    height: calc(120vh - 50px);
+    background-color: #EBD3B5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2 {
+        font-size: nth($font-size,3);
+    }
+    h3 {
+        font-size: nth($font-size,4);
+    }
+    p {
+        font-size: nth($font-size,5);
+    }
+}
+/*More Apps*/
+.aplicaciones {
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: calc(25vh - 50px);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.aplicacion{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #439c8c;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: nth($font-size,5);
+}
