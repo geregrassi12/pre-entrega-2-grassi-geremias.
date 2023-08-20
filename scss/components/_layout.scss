@@ -73,6 +73,28 @@
         align-items: center;
     }
 }
+/*Nosotros*/
+.nosotros {
+    height: 100vh;
+    background-color: #D5C2ED;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nosotros__nosotros {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2{
+        font-size: nth($font-size,3);
+    }
+    p{
+        font-size: nth($font-size,4);
+    }
+}
 /*Todos los juegos EN PAG DE JUEGOS*/
 .juegouno{
     width: 100%;
@@ -171,4 +193,27 @@
     padding: 10px;
     border-radius: 20px;
     font-size: nth($font-size,5);
+}
+/*Politica y privacidad*/
+.politica {
+    height: 100vh;
+    background-color: #D5C2ED;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.politica__politica {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2{
+        font-size: nth($font-size,4);
+    }
+    p{
+        font-size: nth($font-size,5);
+        padding: 50px;
+    }
 }
